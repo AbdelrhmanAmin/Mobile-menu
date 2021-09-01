@@ -424,23 +424,27 @@ textarea {
   padding: 50px 20px;
   flex-direction: row-reverse;
 }
+
 #mobile-nav > ul {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+
 #mobile-nav > ul > li {
   display: flex;
   width: 100%;
   padding: 30px 0 10px 0;
   border-bottom: 1px solid #6f6c6b;
 }
+
 #mobile-nav > ul > li .nav-link {
   font-size: 40px;
   font-weight: 700;
   color: white;
 }
+
 .menu-exit {
   border: 0;
   background: none;
