@@ -14,5 +14,6 @@ window.addEventListener('load', () => {
   document.getElementById('menu-btn').addEventListener('click', handleMenuBar);
   document.getElementById('nav-btn1').addEventListener('click', handleReverse);
   document.getElementById('nav-btn2').addEventListener('click', handleReverse);
+  document.getElementById('nav-btn3').addEventListener('click', handleReverse);
   document.getElementById('exit-btn').addEventListener('click', handleReverse);
 });
