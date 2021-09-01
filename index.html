@@ -11,23 +11,19 @@
   <body>
     <nav id="mobile-nav">
       <div>
-        <button type="button" class="menu-exit" onclick="handleReverse()">
+        <button type="button" class="menu-exit" id="exit-btn">
           <i class="fas fa-times fa-2x"></i>
         </button>
       </div>
       <ul>
         <li>
-          <a class="nav-link" href="#projects" onclick="handleReverse()"
-            >Portoflio</a
-          >
+          <a class="nav-link" href="#projects" id="nav-btn">Portoflio</a>
         </li>
         <li>
-          <a class="nav-link" href="#about-me" onclick="handleReverse()"
-            >About</a
-          >
+          <a class="nav-link" href="#about-me" id="nav-btn">About</a>
         </li>
         <li>
-          <a class="nav-link" href="#contact" onclick="handleReverse()"
+          <a class="nav-link" href="#contact" id="nav-btn"
             >Contact <i class="far fa-envelope"></i
           ></a>
         </li>
@@ -35,7 +31,7 @@
     </nav>
     <header class="hide-nav-menu-mobile">
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars" onclick="handleMenuBar()">
+      <button type="button" class="menu-bars" id="menu-btn">
         <i class="fas fa-bars"></i>
       </button>
 
